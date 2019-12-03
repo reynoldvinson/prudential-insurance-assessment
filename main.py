@@ -6,11 +6,7 @@ from dash.dependencies import Input, Output, State
 from dash.exceptions import PreventUpdate
 from pickle_file.classific import Classific
 
-#app = dash.Dash(__name__)
-
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__)
 
 app.layout = html.Div([
     html.H1('Prudential Insurance Assessment'),
@@ -27,10 +23,6 @@ app.layout = html.Div([
         value=0,labelStyle={'margin-right': 30}),
     html.Br(),
     
-    #html.Label('Age (years old) '),
-    #dcc.Input(id='input-age',value=0, type='number'),
-    #html.Br(),html.Br(),
-    
     html.Label('Age'),
     dcc.RadioItems(
         value=2,id='input-age',
@@ -42,10 +34,6 @@ app.layout = html.Div([
         labelStyle={'margin-right': 30}),
     html.Br(),
     
-    #html.Label('Height (cm) '),
-    #dcc.Input(id='input-height',value=0, type='number'),
-    #html.Br(),html.Br(),
-    
     html.Label('Height'),
     dcc.RadioItems(
         value=2,id='input-height',
@@ -56,10 +44,6 @@ app.layout = html.Div([
         ],
         labelStyle={'margin-right': 30}),
     html.Br(),
-   
-    #html.Label('Weight (kg) '),
-    #dcc.Input(id='input-weight',value=0, type='number'),
-    #html.Br(),html.Br(),
     
     html.Label('Weight'),
     dcc.RadioItems(
@@ -71,10 +55,6 @@ app.layout = html.Div([
         ],
         labelStyle={'margin-right': 30}),
     html.Br(),
-   
-    #html.Label('BMI '),
-    #dcc.Input(id='input-bmi',value=0, type='number'),
-    #html.Br(),html.Br(),
     
     html.Label('BMI'),
     dcc.RadioItems(
@@ -90,8 +70,7 @@ app.layout = html.Div([
     html.Label('Current Work Duration (years) '),
     dcc.Input(id='input-employ-info',value=0, type='number'),
     html.Br(),html.Br(),
-    
-    
+        
     html.Label('Marital Status'),
     dcc.RadioItems(
         value=0,id='input-insur-info',
