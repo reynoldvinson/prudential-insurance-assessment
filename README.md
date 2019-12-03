@@ -23,3 +23,6 @@ The data sets consists of 128 columns which represent various inputs and variabl
 
 A problem arises in understanding the data sets given, since most of the data are either already normalized or are given without any background. This results in a vague understanding of the problem itself, particularly the variables given for us to use. As such, some assumptions are logically made and some exploratory data analyses are also done to better understand the problem at hand. Furthermore, in trying to make a simple interactive program for the purpose of learning, we simplified the columns to just consist of 10 columns, each representing a certain variable group from the original 128 columns. The responses are also simplified by changing the mulitclass characteristic of the problem into a binary problem. Further assumptions and simplifications can be read in the accompanying files.
 
+## Modeling
+Several models are used in initial phases of modelling. This includes random forest, decision tree, and SVM. However, after observing the various degrees of accuracy and precision of the models, it is decided that the random forest model will be used for the final program that will be used by the users. The accuracy scores and confusion matrices of each model can be seen in the files attached in this repository.
+
