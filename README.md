@@ -7,7 +7,6 @@ This repository is an attempt as well as a student project aimed to complete [a 
 ## Getting Started
 This program uses the following programs to run:
 - [Jupyter Notebook](https://jupyter.org/)
-- [Notepad++](https://notepad-plus-plus.org/downloads/) though the notepad application in Windows is also compatible 
 - [Python](https://www.python.org/downloads/) 
 - [Dash](https://pypi.org/project/dash/) 
 
