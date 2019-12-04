@@ -51,9 +51,9 @@ After running `main.py`, you will see this in your command prompt and will direc
 ![Denied](Denied.gif)
 
 # AUTHORS
-Alvaro Amos Hadipranoto
-Reynold Vinson Chen
-Winly Williamdy
+Alvaro Amos Hadipranoto,
+Reynold Vinson Chen,
+Winly Williamdy.
 
 > Made as Frontier Technology Final Project - UNIVERSITAS PELITA HARAPAN
-> For more info about the programs, open `prudential-insurance-assessment.ipynb`.
+#### For more info about the programs, open `prudential-insurance-assessment.ipynb`.
