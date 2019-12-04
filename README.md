@@ -11,7 +11,7 @@ This program uses the following programs to run:
 - [Dash](https://pypi.org/project/dash/) 
 
 ## Layout
-![layout]()
+![layout](https://github.com/reynoldvinson/prudential-insurance-assessment/blob/master/Dash%20Layout.png)
 ## Data Cleansing
 The data sets consists of 128 columns which represent various inputs and variables concerning the applicant. This includes age, weight, height, BMI, medical history, family data, and employment info. The columns can roughly be categorized as the following:
 
