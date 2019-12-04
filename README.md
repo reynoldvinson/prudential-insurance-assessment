@@ -11,7 +11,7 @@ This program uses the following programs to run:
 
 ## Layout
 ![layout](https://github.com/reynoldvinson/prudential-insurance-assessment/blob/master/Dash%20Layout.png)
-User expected to input their information then pressing the `See the Results` button to find out the prediction result.
+User expected to input their information then pressing the `See the Results` button to find out the classification result.
 
 ## Data Cleansing
 The data sets consists of 128 columns which represent various inputs and variables concerning the applicant. This includes age, weight, height, BMI, medical history, family data, and employment info. The columns can roughly be categorized as the following:
@@ -27,10 +27,10 @@ The data sets consists of 128 columns which represent various inputs and variabl
 A problem arises in understanding the data sets given, since most of the data are either already normalized or are given without any background. This results in a vague understanding of the problem itself, particularly the variables given for us to use. As such, some assumptions are logically made and some exploratory data analyses are also done to better understand the problem at hand. Furthermore, in trying to make a simple interactive program for the purpose of learning, we simplified the columns to just consist of 10 columns, each representing a certain variable group from the original 128 columns. The responses are also simplified by changing the mulitclass characteristic of the problem into a binary problem. Further assumptions and simplifications can be read in the accompanying files.
 
 ## Modeling
-Several models are used in initial phases of modelling. This includes random forest, decision tree, and SVM that is contained in `sklearn` library. However, after observing the various degrees of accuracy and precision of the models, it is decided that the `Random Forest` model will be used for the final program that will be used by the users because `Random Forest` yield a similar performance compared with other models. The performance for each models are also evaluated using `sklearn.metric` library which shows the model's accuracy, precission, f1-score and support. The confusion matrix for each models can also be viewed using `confusing_matrix` inside `sklearn.metrics library`. After fitting models for prediction, the models than saved into a `pickle` which can be called on `Dash`. All the `pickle` file can be found at `pickle_file`.
+Several models are used in initial phases of modelling. This includes random forest, decision tree, and SVM that is contained in `sklearn` library. However, after observing the various degrees of accuracy and precision of the models, it is decided that the `Random Forest` model will be used for the final program that will be used by the users because `Random Forest` yield a similar performance compared with other models. The performance for each models are also evaluated using `sklearn.metric` library which shows the model's accuracy, precission, f1-score and support. The confusion matrix for each models can also be viewed using `confusing_matrix` inside `sklearn.metrics library`. After fitting models for classification, the models than saved into a `pickle` which can be called on `Dash`. All the `pickle` file can be found at `pickle_file`.
 
 ## Visualisation
-Prediction visualisation developed using [Dash](https://plot.ly/dash/). `layout`,`components`, and `pickle` are integrated into one file `main.py`.
+Classification visualized using [Dash](https://plot.ly/dash/). `layout`,`components`, and `pickle` are integrated into one file named as `main.py`.
 
 After running `main.py`, you will see this in your command prompt and will directed to the layout.
 > Running on http://127.0.0.1:8050/
@@ -56,3 +56,4 @@ Reynold Vinson Chen
 Winly Williamdy
 
 > Made as Frontier Technology Final Project - UNIVERSITAS PELITA HARAPAN
+> For more info about the programs, open `prudential-insurance-assessment.ipynb`.
