@@ -12,6 +12,8 @@ This program uses the following programs to run:
 
 ## Layout
 ![layout](https://github.com/reynoldvinson/prudential-insurance-assessment/blob/master/Dash%20Layout.png)
+User than expected to input their information then pressing the "See the Results" button to find out the prediction result.
+
 ## Data Cleansing
 The data sets consists of 128 columns which represent various inputs and variables concerning the applicant. This includes age, weight, height, BMI, medical history, family data, and employment info. The columns can roughly be categorized as the following:
 
