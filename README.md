@@ -1,5 +1,4 @@
-# Prudential Insurance Assessment
-By Alvaro Amos H, Reynold Vinson, and Winly Williamdy
+# Prudential Life Insurance Assessment
 
 ## Background
 This repository is an attempt as well as a student project aimed to complete [a challenge posted on Kaggle with a similar title](https://www.kaggle.com/c/prudential-life-insurance-assessment/overview) . The challenge asks programmers to attempt to create a program that allows a prediction of responses from a given data set by creating and using statistical models. The challenge comes from a real life problem in which people in the US are turned off by the fact that identifying risk classifications and eligibility of applicants takes too much time to process. As such, the model aims to be able to predict the life insurance plan suitable for any applicant without needing as much time.
@@ -44,3 +43,10 @@ After running `main.py`, you will see this in your command prompt and will direc
 > Running on http://127.0.0.1:8050/
 > Debugger PIN: XXX-XXX-XXX
 
+
+# AUTHORS
+Alvaro Amos Hadipranoto
+Reynold Vinson Chen
+Winly Williamdy
+
+> Made as Frontier Technology Final Project - UNIVERSITAS PELITA HARAPAN
