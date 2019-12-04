@@ -43,6 +43,12 @@ After running `main.py`, you will see this in your command prompt and will direc
 > Running on http://127.0.0.1:8050/
 > Debugger PIN: XXX-XXX-XXX
 
+## Classification Result
+### Qualified
+![Granted](Granted.gif)
+
+### Unqualified
+![Denied](Denied.gif)
 
 # AUTHORS
 Alvaro Amos Hadipranoto
