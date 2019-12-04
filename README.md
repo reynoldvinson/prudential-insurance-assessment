@@ -35,12 +35,12 @@ Prediction visualisation developed using [Dash](https://plot.ly/dash/). `layout`
 
 After running `main.py`, you will see this in your command prompt and will directed to the layout.
 > Running on http://127.0.0.1:8050/
-> Debugger PIN: 440-697-358
+> Debugger PIN: XXX-XXX-XXX
 >  * Serving Flask app "main" (lazy loading)
 >  * Environment: production
 >    WARNING: This is a development server. Do not use it in a production deployment.
 >    Use a production WSGI server instead.
 >  * Debug mode: on
 > Running on http://127.0.0.1:8050/
-> Debugger PIN: 879-897-858
+> Debugger PIN: XXX-XXX-XXX
 
