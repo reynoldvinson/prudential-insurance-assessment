@@ -33,7 +33,7 @@ Several models are used in initial phases of modelling. This includes random for
 ## Visualisation
 Prediction visualisation developed using [Dash](https://plot.ly/dash/). `layout`,`components`, and `pickle` are integrated into one file `main.py`.
 
-After running `main.py`, you will see this in your command prompt.
+After running `main.py`, you will see this in your command prompt and will directed to the layout.
 > Running on http://127.0.0.1:8050/
 > Debugger PIN: 440-697-358
 >  * Serving Flask app "main" (lazy loading)
