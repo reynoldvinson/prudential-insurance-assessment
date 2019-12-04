@@ -31,5 +31,5 @@ A problem arises in understanding the data sets given, since most of the data ar
 Several models are used in initial phases of modelling. This includes random forest, decision tree, and SVM that is contained in `sklearn` library. However, after observing the various degrees of accuracy and precision of the models, it is decided that the `Random Forest` model will be used for the final program that will be used by the users because `Random Forest` yield a similar performance compared with other models. The performance for each models are also evaluated using `sklearn.metric` library which shows the model's accuracy, precission, f1-score and support. The confusion matrix for each models can also be viewed using `confusing_matrix` inside `sklearn.metrics library`. After fitting models for prediction, the models than saved into a `pickle` which can be called on `Dash`.
 
 ## Visualisation
-Prediction visualisation developed using ![Dash](https://plot.ly/dash/)
+Prediction visualisation developed using [Dash](https://plot.ly/dash/)
 
